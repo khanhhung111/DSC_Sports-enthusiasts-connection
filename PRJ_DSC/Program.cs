@@ -1,4 +1,10 @@
 
+using Microsoft.EntityFrameworkCore;
+using PRJ_DSC.Models;
+
+//using PRJ_DSC.Models;
+using System;
+
 namespace PRJ_DSC
 {
     public class Program
@@ -7,7 +13,10 @@ namespace PRJ_DSC
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            //Add services to the container.
+           builder.Services.AddDbContext<DSCDBContext>(options =>
+       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

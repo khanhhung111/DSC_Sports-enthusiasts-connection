@@ -3,7 +3,31 @@
   "WorkspaceRootPath": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|d:\\documents\\\u0111\u1ED3 \u00E1n\\prj\\prj_dsc\\prj_dsc\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|d:\\documents\\\u0111\u1ED3 \u00E1n\\prj\\prj_dsc\\prj_dsc\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\models\\activity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|d:\\documents\\\u0111\u1ED3 \u00E1n\\prj\\prj_dsc\\prj_dsc\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\models\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|d:\\documents\\\u0111\u1ED3 \u00E1n\\prj\\prj_dsc\\prj_dsc\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|d:\\documents\\\u0111\u1ED3 \u00E1n\\prj\\prj_dsc\\prj_dsc\\models\\dscdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\models\\dscdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\prj_dsc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\prj_dsc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\prj_dsc\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2F9E58D3-3F0B-4337-ABE0-8BFBFF36954B}|PRJ_DSC\\PRJ_DSC.csproj|solutionrelative:prj_dsc\\controllers\\weatherforecastcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -13,7 +37,7 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 241,
+          "DockedHeight": 276,
           "SelectedChildIndex": 2,
           "Children": [
             {
@@ -27,6 +51,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Activity.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Models\\Activity.cs",
+              "RelativeDocumentMoniker": "PRJ_DSC\\Models\\Activity.cs",
+              "ToolTip": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Models\\Activity.cs",
+              "RelativeToolTip": "PRJ_DSC\\Models\\Activity.cs",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAuwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:51:38.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Account.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Models\\Account.cs",
+              "RelativeDocumentMoniker": "PRJ_DSC\\Models\\Account.cs",
+              "ToolTip": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Models\\Account.cs",
+              "RelativeToolTip": "PRJ_DSC\\Models\\Account.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:51:36.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "PRJ_DSC\\WeatherForecast.cs",
+              "ToolTip": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\WeatherForecast.cs",
+              "RelativeToolTip": "PRJ_DSC\\WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:50:40.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DSCDBContext.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Models\\DSCDBContext.cs",
+              "RelativeDocumentMoniker": "PRJ_DSC\\Models\\DSCDBContext.cs",
+              "ToolTip": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Models\\DSCDBContext.cs",
+              "RelativeToolTip": "PRJ_DSC\\Models\\DSCDBContext.cs",
+              "ViewState": "AQIAANYAAAAAAAAAAAAywEgBAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-11T09:44:49.805Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\appsettings.json",
+              "RelativeDocumentMoniker": "PRJ_DSC\\appsettings.json",
+              "ToolTip": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\appsettings.json",
+              "RelativeToolTip": "PRJ_DSC\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-10T15:14:46.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Program.cs",
+              "RelativeDocumentMoniker": "PRJ_DSC\\Program.cs",
+              "ToolTip": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Program.cs",
+              "RelativeToolTip": "PRJ_DSC\\Program.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAYwA8AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T15:15:48.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\Documents\\\u0110\u1ED3 \u00E1n\\prj\\PRJ_DSC\\PRJ_DSC\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "PRJ_DSC\\Controllers\\WeatherForecastController.cs",
@@ -34,8 +136,7 @@
               "RelativeToolTip": "PRJ_DSC\\Controllers\\WeatherForecastController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T15:59:59.624Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T15:59:59.624Z"
             }
           ]
         },
@@ -50,7 +151,7 @@
           ]
         },
         {
-          "DockedHeight": 149,
+          "DockedHeight": 114,
           "SelectedChildIndex": -1,
           "Children": [
             {
@@ -67,7 +168,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:9:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:11:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:12:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         },
@@ -82,6 +191,10 @@
             {
               "$type": "Bookmark",
               "Name": "ST:9:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:11:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
             }
           ]
         }
