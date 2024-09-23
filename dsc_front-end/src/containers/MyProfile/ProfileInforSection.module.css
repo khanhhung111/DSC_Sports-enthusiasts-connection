@@ -1,0 +1,33 @@
+.accountInforSection {
+    background-color: #fff;
+    padding: 64px;
+  }
+  
+  .sectionTitle {
+    color: var(--sds-color-text-default-default);
+    letter-spacing: -0.48px;
+    font: var(--sds-typography-heading-font-weight) var(--sds-typography-heading-size-base) var(--sds-typography-heading-font-family);
+  }
+  
+  .sectionDescription {
+    color: var(--sds-color-text-default-secondary);
+    margin-top: 8px;
+    font: var(--sds-typography-subheading-font-weight) var(--sds-typography-subheading-size-medium) var(--sds-typography-subheading-font-family);
+  }
+  
+  .cardGrid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin-top: 48px;
+  }
+  
+  @media (max-width: 991px) {
+    .accountInfoSection {
+      padding: 64px 20px;
+    }
+  
+    .cardGrid {
+      margin-top: 40px;
+    }
+  }
