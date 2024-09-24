@@ -5,7 +5,7 @@ import Button from '../Button/Button';
 import { useNavigate } from 'react-router-dom';
 
 const navItems = [
-  { text: 'Kèo hàng ngày', href: '#' },
+  { text: 'Kèo thể thao', href: '/sportbetting' },
   { text: 'Giải đấu', href: '#' },
   { text: 'Câu lạc bộ', href: '#' },
   { text: 'Thông báo', href: '#' },

@@ -3714,24 +3714,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\tvkhu\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\datng\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Documents\\Đồ án\\prj\\PRJ_DSC\\PRJ_DSC\\PRJ_DSC.csproj",
+      "projectUniqueName": "D:\\commit\\DSC_Sports-enthusiasts-connection\\PRJ_DSC\\PRJ_DSC.csproj",
       "projectName": "PRJ_DSC",
-      "projectPath": "D:\\Documents\\Đồ án\\prj\\PRJ_DSC\\PRJ_DSC\\PRJ_DSC.csproj",
-      "packagesPath": "C:\\Users\\tvkhu\\.nuget\\packages\\",
-      "outputPath": "D:\\Documents\\Đồ án\\prj\\PRJ_DSC\\PRJ_DSC\\obj\\",
+      "projectPath": "D:\\commit\\DSC_Sports-enthusiasts-connection\\PRJ_DSC\\PRJ_DSC.csproj",
+      "packagesPath": "C:\\Users\\datng\\.nuget\\packages\\",
+      "outputPath": "D:\\commit\\DSC_Sports-enthusiasts-connection\\PRJ_DSC\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\tvkhu\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\datng\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3751,11 +3746,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -3806,6 +3796,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[7.0.14, 7.0.14]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -3814,7 +3822,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

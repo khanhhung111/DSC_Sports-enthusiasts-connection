@@ -72,3 +72,21 @@
   .secondary:hover {
     background-color: #f0f0f0;
   }
+
+  .userContainer {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+  }
+  
+  .logoIcon {
+    width: 40px; /* Kích thước avatar, bạn có thể điều chỉnh */
+    height: 40px;
+    border-radius: 50%; /* Tạo avatar dạng tròn */
+    margin-right: 10px; /* Khoảng cách giữa avatar và tên */
+  }
+  
+  .userName {
+    font-size: 16px; /* Kích thước chữ */
+    font-weight: 500; /* Độ dày chữ */
+  }
+  

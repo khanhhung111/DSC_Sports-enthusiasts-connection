@@ -13,6 +13,9 @@ import AppProvider from "./hooks";
 import MyProfile from "./containers/MyProfile/Profile";
 // import Admin from "./containers/Admin";
 import Header from "./components/Header/Hearder";
+import SportsBetting from "./containers/SportsBetting/SportsBetting";
+import ManagementSportsBetting from "./containers/ManagementSportsBetting/SportsBetting";
+import MyBetting from "./containers/MyBetting/SportsBetting"
 // import EventDetail from "./containers/EventDetail";
 // import NewBooking from "./components/NewBooking";
 // import Payment from "./containers/Payment";
@@ -32,6 +35,10 @@ function App() {
           <Route path="signup" element={<SignUp />} />
           <Route path="reset-password" element={<ResetPassword />} />
           <Route path="my-profile" element={<MyProfile />} />
+          <Route path="sportbetting" element={<SportsBetting />} />
+          <Route path="management-betting" element={<ManagementSportsBetting />} />
+          <Route path="mybetting" element={<MyBetting />} />
+          
           <Route element={<ProtectRoutes />}>
             <Route path="user-about" element={<UserAbout />} />
             

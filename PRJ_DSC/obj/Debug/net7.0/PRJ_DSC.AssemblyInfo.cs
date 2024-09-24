@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PRJ_DSC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+29f416d4be19b522d593e5cd71e0873f3a168c9f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("PRJ_DSC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PRJ_DSC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
