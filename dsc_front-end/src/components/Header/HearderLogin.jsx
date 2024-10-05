@@ -5,9 +5,9 @@ import Button from '../Button/Button';
 import { useNavigate } from 'react-router-dom';
 
 const navItems = [
-  { text: 'Kèo thể thao', href: '/sportbetting'},
+  { text: 'Kèo thể thao', href: '/sportbetting' },
   { text: 'Giải đấu', href: '#' },
-  { text: 'Câu lạc bộ', href: '#' },
+  { text: 'Câu lạc bộ', href: '/club' },
   { text: 'Thông báo', href: '#' },
 ];
 
@@ -31,6 +31,8 @@ function Header() {
           src="https://cdn.builder.io/api/v1/image/assets/TEMP/d49291d2c7f0206b44d14e01258fdaeccb10182cc5eb928d0344d1ccfa220d40?placeholderIfAbsent=true&apiKey=64a11f7ccf9c4f09a01cd9aadc1c5dac"
           alt="Avatar"
           className={styles.logoIcon}
+          onClick={() => navigate('/account')}
+          style={{ cursor: 'pointer' }}
         />
         <span className={styles.userName}>Hưng</span>
       </div>

@@ -1,17 +1,17 @@
 import React from 'react';
 import HeaderLogin from '../../components/Header/HearderLogin';
-import HeroSection from './HeroSection';
-import ProfileInforSection from './ProfileInforSection';
+import Sidebar from './Sidebar'
+import AccountDetails from './AccountDetails'
 import Footer from '../../components/Footer/Footer';
-import styles from './ProfileInforSection.module.css';
+import styles from './Profile.module.css';
 
 function Profile() {
   return (
-    <div className={styles.accountPage}>
+    <div className={styles.accountProfile}>
       <HeaderLogin />
-      <main>
-        <HeroSection />
-        <ProfileInforSection />
+      <main className={styles.mainContent}>
+        <Sidebar />
+        <AccountDetails />
       </main>
       <Footer />
     </div>

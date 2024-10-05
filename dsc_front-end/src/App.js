@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // import  from "./components/Layout";
 import Home from "./containers/Home/Homepage";
+import HomePageLogin from "./containers/Home/HomepageLogin";
 import Login from "./containers/Login/Login";
 import SignUp from "./containers/SignUp/SignUp";
 import ResetPassword from "./containers/ResetPassword";
@@ -16,6 +17,11 @@ import Header from "./components/Header/Hearder";
 import SportsBetting from "./containers/SportsBetting/SportsBetting";
 import ManagementSportsBetting from "./containers/ManagementSportsBetting/SportsBetting";
 import MyBetting from "./containers/MyBetting/SportsBetting"
+import Club from "./containers/Club/ClubPage"
+import SportClubCreation from "./containers/Createclub/SportClubCreation"
+import AccountPage from "./containers/AccountPage/AccountPage";
+import AccountSport from "./containers/AccountPage/AccountSport";
+import AddSportAcc from "./containers/AccountPage/AddSportAcc";
 // import EventDetail from "./containers/EventDetail";
 // import NewBooking from "./components/NewBooking";
 // import Payment from "./containers/Payment";
@@ -38,6 +44,12 @@ function App() {
           <Route path="sportbetting" element={<SportsBetting />} />
           <Route path="management-betting" element={<ManagementSportsBetting />} />
           <Route path="mybetting" element={<MyBetting />} />
+          <Route path="club" element={<Club />} />
+          <Route path="/home" element={<HomePageLogin />} />
+          <Route path="/createclub" element={<SportClubCreation />} />
+          <Route path="/account" element={<AccountPage />} />
+          <Route path="/accountsports" element={<AccountSport />} />
+          <Route path="/addsportsacc" element={<AddSportAcc />} />
           
           <Route element={<ProtectRoutes />}>
             <Route path="user-about" element={<UserAbout />} />

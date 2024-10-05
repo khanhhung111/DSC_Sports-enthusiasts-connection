@@ -47,7 +47,7 @@ function LoginForm() {
         {/* <button type="submit" className={styles.submitButton}>
           Đăng Nhập
         </button> */}
-        <button onClick={() => navigate('/sportbetting')}className={styles.submitButton}>
+        <button onClick={() => navigate('/home')}className={styles.submitButton}>
           Đăng Nhập
         </button>
       </form>
