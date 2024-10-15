@@ -1,7 +1,14 @@
 import React from 'react';
 import styles from './EventItem.module.css';
-
+import { useNavigate } from 'react-router-dom';
 const EventItem = ({ type, title, level, location, participants, image }) => {
+  const navigate = useNavigate();
+
+  const handleButtonClick = (href) => {
+    if (href !== '#') {
+      navigate(href);
+    }
+  };
   return (
     <article className={styles.eventItem}>
       <img src={image} alt="" className={styles.eventImage} />
@@ -23,7 +30,7 @@ const EventItem = ({ type, title, level, location, participants, image }) => {
           {participants}
         </p>
       </div>
-      <button className={styles.moreButton}>More</button>
+      <button className={styles.moreButton} onClick={() => handleButtonClick('/detailmatch')}>More</button>
     </article>
   );
 };

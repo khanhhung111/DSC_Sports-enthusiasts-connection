@@ -1,16 +1,17 @@
 import React from 'react';
-import HeaderLogin from '../../components/Header/HearderLogin';
-import SegmentedButton from './SegmentedButton';
-import EventList from './EventList';
+import HeaderLogin from '../../components/Header/HearderLogin'
+import SportSelection from './SportSelection';
+import EventTypeSelection from './EventTypeSelection';
+import KeoForm from './KeoForm';
+import CreateEventButton from './CreateEventButton';
 import Footer from '../../components/Footer/Footer';
-import styles from './SportsBetting.module.css';
+import styles from './CreateSportEvent.module.css';
 import { useNavigate } from 'react-router-dom';
 
-
-const SportsBetting = () => {
+function CreateSportEvent() {
   const navigate = useNavigate();
   return (
-    <div className={styles.sportsBetting}>
+    <div className={styles.createSportEvent}>
       <HeaderLogin />
       <div className={styles.bannerContainer}>
         <img
@@ -28,17 +29,22 @@ const SportsBetting = () => {
         </div>
       </div>
       <main className={styles.mainContent}>
-        <SegmentedButton />
-        <h2 className={styles.sectionTitle}>NGÀY MAI, 25 tháng 9</h2>
-        <button className={styles.greenButton} onClick={() => navigate('/createsportevent')}>
-          
-          + Tạo kèo thể thao
-        </button>
-        <EventList />
+        <h1 className={styles.title}>Tạo kèo</h1>
+        <section className={styles.sportSelection}>
+          <h2 className={styles.sectionTitle}>MÔN THỂ THAO</h2>
+          <SportSelection />
+        </section>
+        <section className={styles.eventTypeSelection}>
+          <EventTypeSelection />
+        </section>
+        <section className={styles.eventForm}>
+          <KeoForm />
+        </section>
+        <CreateEventButton />
       </main>
       <Footer />
     </div>
   );
-};
+}
 
-export default SportsBetting;
+export default CreateSportEvent;

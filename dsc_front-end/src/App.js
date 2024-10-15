@@ -22,14 +22,10 @@ import SportClubCreation from "./containers/Createclub/SportClubCreation"
 import AccountPage from "./containers/AccountPage/AccountPage";
 import AccountSport from "./containers/AccountPage/AccountSport";
 import AddSportAcc from "./containers/AccountPage/AddSportAcc";
-// import EventDetail from "./containers/EventDetail";
-// import NewBooking from "./components/NewBooking";
-// import Payment from "./containers/Payment";
-// import News from "./components/News/News";
-// import CustomerUnpaidList from "./containers/CustomerUnpaidList";
-// import BookingDetail from "./containers/NotificationDetail/BookingDetail";
-// import { ChangePass } from "./containers/ChangePassword/ChangePass";
-// import Contract from "./components/NewBooking/Contract";
+import Match from "./containers/Match/Match";
+import PickleballMatch from "./containers/DetailMatch/PickleballMatch";
+import CreateSportEvent from "./containers/CreateSportEvent/CreateSportEvent";
+import ResultMatch from "./containers/ResultMatch/ResultMatch";
 
 function App() {
   return (
@@ -50,7 +46,10 @@ function App() {
           <Route path="/account" element={<AccountPage />} />
           <Route path="/accountsports" element={<AccountSport />} />
           <Route path="/addsportsacc" element={<AddSportAcc />} />
-          
+          <Route path="/match" element={<Match />} />
+          <Route path="/detailmatch" element={<PickleballMatch />} />
+          <Route path="/createsportevent" element={<CreateSportEvent />} />
+          <Route path="/resultmatch" element={<ResultMatch />} />
           <Route element={<ProtectRoutes />}>
             <Route path="user-about" element={<UserAbout />} />
             
